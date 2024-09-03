@@ -119,6 +119,14 @@ Click the menu bar item, go to the first menu bar item (which is named after you
 
 No, that is unfortunately not possible. Folder Peek is built as a system menu, and a menu cannot be kept open if it's not focused. Instead, first, navigate to the nested folder, click to open it in Finder, and then drag & drop the file into the Finder window.
 
+#### Can it auto-mount a network volume when accessing it? {#network-volume}
+
+No, this is not possible because of sandboxing. If you want to use a network volume in the app, you need to manually mount it first or use a tool like [AutoMounter](https://pixeleyes.co.nz/automounter/) to keep it always mounted.
+
+#### Can it support adding a tag instead of a folder?
+
+No. This is not planned.
+
 #### The app I want does not show up in the “Open With” menu for a folder {#folder-open-with}
 
 Apps define the types they support and Folder Peek just fetches a list of apps that support opening folders. However, many apps forget to declare support for folders even though they can open them. I would encourage reporting this to the developers of the app you want to open ([example report](https://github.com/microsoft/vscode/issues/146977)). In the meantime, I'm happy to manually add the app to the list if you contact me, but you are expected to also have reported the issue to the app's developers.

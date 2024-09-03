@@ -54,6 +54,10 @@ Yes. Click “View › Show Tab Bar” in the menu bar and then click the plus b
 
 You can also press <kbd>Command</kbd> + <kbd>N</kbd> if you have [tabs enabled for document apps](https://support.apple.com/en-gb/guide/mac-help/mchla4695cce/mac).
 
+#### Can I keep it in the menu bar?
+
+No, that's not supported. However, you may be interested in my [Scratchpad](/scratchpad) app.
+
 #### How can I make the app preserve open documents when I quit on macOS?
 
 This is already how it works. Actually, it's how all document-based apps on macOS work. Make sure you don't have “System Settings › Desktop & Dock › Close windows when quitting an application” enabled.

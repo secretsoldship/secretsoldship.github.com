@@ -51,7 +51,7 @@ It's something I'm considering. Share your use-case through the feedback button 
 
 #### Can you make the menu bar icon green when online?
 
-No. Menu bar icons are intended to be mostly monotone, changing color only to indicate critical states. For example, the battery icon turns red or yellow when low but stays monochrome when full.
+No. Menu bar icons are intended to be mostly monotone, changing color only to indicate critical states. For example, the battery icon turns red when low but stays monochrome when full. Showing green also isn't that useful as you can assume it's connected when not red, and having a constant green color there could be distracting.
 
 #### [More FAQs…](/apps/faq)
 

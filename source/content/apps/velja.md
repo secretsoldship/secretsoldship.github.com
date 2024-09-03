@@ -181,7 +181,7 @@ Make sure you didn't click the link in a browser. See above.
 
 **I clicked a link in VS Code**
 
-VS Code [does not open the system default browser](https://github.com/microsoft/vscode/issues/96132) when you click a link in the app. Because of this, Velja is not used.
+By default, VS Code does not open the system default browser when you click a link in the app. Because of this, Velja is not used. You can change this with the `workbench.externalBrowser` setting in VS Code.
 
 **I clicked a short URL**
 

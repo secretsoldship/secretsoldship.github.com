@@ -9,6 +9,8 @@ platforms:
 appStoreId: 6444667067
 olderMacOSVersions:
   - '13'
+feedbackNote: |
+  If you are having problems with sync, [read this](/hyperduck#troubleshooting).
 ---
 
 For example, share a link from Safari on your iPhone, iPad, or Apple Vision Pro, and have it open in the default browser on your Mac moments later.
@@ -202,7 +204,7 @@ No. I would like to keep the app simple.
 
 #### Can you support the reverse - Mac to iOS?
 
-No. That is not something I plan to support. It's simply not something I need myself and it would make the app much more complicated.
+No. That is not something I plan to support. It's simply not something I need myself and it would make the app much more complicated. Also, it would not be possible to open the URL directly in the browser like it does on macOS, so the experience would not be great.
 
 #### Can you localize the app into my language?
 

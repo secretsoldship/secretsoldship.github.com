@@ -7,11 +7,13 @@ platforms:
   - iOS
   - visionOS
   # - watchOS
-# isPaid: true TODO
+isPaid: true
 isMenuBarApp: true
 appStoreId: 6504040051
 # olderMacOSVersions:
 #   - '14'
+feedbackNote: |
+  If you are having problems with sync, [read this](/scratchpad#troubleshooting).
 ---
 
 Capture your thoughts instantly in a single, always-accessible note.
@@ -26,20 +28,29 @@ On macOS, the app sits in your menu bar or Dock, ready whenever inspiration stri
 - Sync with iCloud, or not
 - Custom hotkey for instant writing <sup>(macOS)</sup>
 - Translucent background <sup>(macOS)</sup>
+- Font settings
 
 Perfect for brain dumps, quick drafts, and fleeting ideas. Your thoughts are just a click away, without breaking your workflow.
 
 **watchOS version is planned later this year.**
 
+<a href="https://www.producthunt.com/posts/scratchpad-3?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-scratchpad&#0045;3" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=486333&theme=light&period=daily" alt="Scratchpad - Quick&#0032;notes&#0044;&#0032;always&#0032;available | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 #### Privacy
 
 The app uses iCloud syncing to securely sync your text across devices. This feature is opt-in. Neither the app developer nor Apple can access the text in your scratchpad. The app does not collect any personal data and contains no tracking.
+
+### Trial
+
+Try the fully functional trial of the macOS app [here](https://www.dropbox.com/scl/fi/nzjdt588h0y2zj8wn48r1/Scratchpad-1.1.0-trial-1725634004.zip?rlkey=3hhcc0rcwt2cjpba7vbnl2ucq&raw=1). The only limitation is a reminder to buy the app every 12 hours, and no automatic updates. All data and settings carry over if you buy it on the App Store.
 
 ### Tips
 
 #### Troubleshoot syncing {#troubleshooting}
 
 - Ensure iCloud sync is enabled in the Scratchpad settings on all devices you wish to sync.
+- After enabling sync, try writing some more text on all the devices.
+- The initial sync may take a while.
 - Ensure all devices are signed into the same iCloud account.
 - Ensure all devices are online.
 - Try restarting all devices.
@@ -52,6 +63,10 @@ The app uses iCloud syncing to securely sync your text across devices. This feat
 - If it's a work device, make sure there are no restrictions in place that prevents iCloud or iCloud Drive.
 - If using a VPN, try disconnecting it, as some VPNs can interfere with iCloud syncing.
 - Check the [iCloud system status](https://www.apple.com/support/systemstatus/) to ensure the service is not experiencing issues.
+
+#### Launch app from Lock Screen
+
+Quickly open the app using the built-in Lock Screen widget. For more customization options, you can also use my [Quick Launch](/quick-launch) app.
 
 ### Frequently Asked Questions {#faq}
 
@@ -95,6 +110,14 @@ By default, it only appears in the menu bar. You can enable the Dock icon in the
 
 Refer to the [troubleshooting section](#troubleshooting) above to resolve syncing issues.
 
+#### Can it show the text in a widget?
+
+No, but check out my [Any Text](/any-text) app for that.
+
+#### Can it show the text in the macOS menu bar?
+
+No, but check out my [One Thing](/one-thing) app for that.
+
 #### The text sometimes jumps when I write fast
 
 This is a macOS bug. There is unfortunately nothing I can do about it.
@@ -103,7 +126,7 @@ This is a macOS bug. There is unfortunately nothing I can do about it.
 
 The keyboard shortcut is listed in the “…” menu.
 
-#### Can you add a font and color setting?
+#### Can you add a color setting?
 
 I don't plan to add that. It's not essential and I'm trying to keep the app simple.
 
@@ -119,16 +142,36 @@ The app is made using Apple's latest technologies (SwiftUI) and they have not ad
 
 I don't plan to localize the app.
 
+#### How does this compare to [Tot](https://tot.rocks)? {#tot}
+
+Scratchpad advantages:
+
+- Simpler, focused design: A single plain text note for minimal distraction.
+- Can float on top of other windows.
+- iCloud sync is optional. Tot does not have a setting to turn off iCloud sync.
+- More affordable pricing: $2 vs $20 for Tot.
+- visionOS support.
+- Unlimited note size. Tot is limited to 100,000 characters.
+- Translucent background on macOS.
+
+Tot advantages:
+
+- Supports 7 notes.
+- Rich-text support.
+- More mature.
+- Available for watchOS. *(Scratchpad will have a watchOS app soon)*
+
 #### [More FAQs…](/apps/faq)
 
 <!-- ### Older Versions
 
 - [1.0.0]() for macOS 14+ -->
 
-### Non-App Store Version
+<!-- ### Non-App Store Version
 
 A special version for users that cannot access the App Store. It won't receive automatic updates. I will update it here once a year.
 
 [Download](https://www.dropbox.com/scl/fi/c9yck1mydyytvkz8rk5dr/Scratchpad-1.0.3-1725305281.zip?rlkey=dfy3q9f3vuvo4q9kgbih7nke5&raw=1) *(1.0.3)*
 
 *Requires macOS 14 or later*
+ -->
